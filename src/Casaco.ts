@@ -16,8 +16,8 @@ export class Casaco {
         return this.marca;
     }
 
-    public setEspecie(_especie:string): void{
-        this.especie= _especie;
+    public setMarca(_marca:string): void{
+        this.marca= _marca;
     }
 
     public getCor(): string{
@@ -28,23 +28,22 @@ export class Casaco {
         this.cor = _cor;
     }
 
-    public getTamanho(): number{
-        return this.tamanho;
+    public getTecido(): string{
+        return this.tecido;
     }
 
-    public setTamanho(_tamanho: number): void{
-        this.tamanho = _tamanho;
+    public setTamanho(_tecido: string): void{
+        this.tecido = _tecido;
     }
 
 
     //METDOS DIAGRAMA
-    public envenenar(): string {
-        return 'A cobra está envenenando...';
+    public vestir(): string {
+        return `Vestindo o casaco...`;
     }
 
-    public engolir(): string {
-        
-        return  'A cobra está engolindo...'
+    public esquentar(): string {
+        return `O casado esta esquentando `
     }
-   
 }
+
